@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/rezhimAd"
+        android:orderInCategory="100"
+        android:title="Добавление пункта режима"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/rezhimDel"
+        android:orderInCategory="100"
+        android:title="Удаление пункта режима"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/rezhimRed"
+        android:orderInCategory="100"
+        android:title="Редактирование пункта режима"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/spisokLekarstvAd"
+        android:orderInCategory="100"
+        android:title="Добавление пункта лекарств"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/spisokLekarstvDel"
+        android:orderInCategory="100"
+        android:title="Удаление пункта лекарств"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/spisokLekarstvRed"
+        android:orderInCategory="100"
+        android:title="Редактирование пункта лекарств"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Exit"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/ServerStart"
+        android:orderInCategory="100"
+        android:title="Запуск сервера"
+        app:showAsAction="never"/>
+
+
+</menu>
